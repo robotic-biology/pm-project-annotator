@@ -1,0 +1,921 @@
+<?xml version='1.0' encoding='utf-8'?>
+<JobProtocolEditorSaveData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project.xsd">
+  <header>
+    <dataVersion>1.1.0.0</dataVersion>
+  </header>
+  <status>
+    <useAdjustTopPosision>0</useAdjustTopPosision>
+  </status>
+  <main>
+    <object>
+      <objectId>1</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>15</linkItemNo>
+        <objectType name="Dish 100">OBJ401</objectType>
+        <settingParam1 name="Title">Chromatin IP</settingParam1>
+        <settingParam2 name="Device">CO2 Incubator</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>COMMAND_DISCARD</type>
+        <id>63</id>
+        <commandType>COM_DISCARD_00_0013</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>3</itemId><type>COMMAND_ADD</type>
+        <id>13</id>
+        <commandType>COM_ADD_00_0013</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">Wash Liquid</settingParam1>
+        <settingParam2 name="Reagent quantity">5</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>4</itemId><type>COMMAND</type>
+        <id>32</id>
+        <commandType>COM_MIX_00_0013</commandType>
+        <category>MIX</category>
+        <settingParam1 name="Device">Etc.</settingParam1>
+        <settingParam2 name="Temperature">25</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">5</settingParam3>
+        <settingParam3Sub>[sec]</settingParam3Sub>
+      </item>
+      <item>
+        <itemId>5</itemId><type>COMMAND_DISCARD</type>
+        <id>63</id>
+        <commandType>COM_DISCARD_00_0013</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>6</itemId><type>COMMAND_ADD</type>
+        <id>13</id>
+        <commandType>COM_ADD_00_0013</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">Reagent A</settingParam1>
+        <settingParam2 name="Reagent quantity">5</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>7</itemId><type>COMMAND</type>
+        <id>32</id>
+        <commandType>COM_MIX_00_0013</commandType>
+        <category>MIX</category>
+        <settingParam1 name="Device">Etc.</settingParam1>
+        <settingParam2 name="Temperature">25</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">5</settingParam3>
+        <settingParam3Sub>[sec]</settingParam3Sub>
+      </item>
+      <item>
+        <itemId>8</itemId><type>COMMAND</type>
+        <id>82</id>
+        <commandType>COM_REACT_00_0013</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">RT</settingParam1>
+        <settingParam2 name="Timer">10</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>9</itemId><type>COMMAND_ADD</type>
+        <id>13</id>
+        <commandType>COM_ADD_00_0013</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">Reagent B</settingParam1>
+        <settingParam2 name="Reagent quantity">200</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>10</itemId><type>COMMAND</type>
+        <id>32</id>
+        <commandType>COM_MIX_00_0013</commandType>
+        <category>MIX</category>
+        <settingParam1 name="Device">Etc.</settingParam1>
+        <settingParam2 name="Temperature">25</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">5</settingParam3>
+        <settingParam3Sub>[sec]</settingParam3Sub>
+      </item>
+      <item>
+        <itemId>11</itemId><type>COMMAND</type>
+        <id>82</id>
+        <commandType>COM_REACT_00_0013</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">RT</settingParam1>
+        <settingParam2 name="Timer">5</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>12</itemId><type>COMMAND_DISCARD</type>
+        <id>63</id>
+        <commandType>COM_DISCARD_00_0013</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>13</itemId><type>COMMAND_ADD</type>
+        <id>13</id>
+        <commandType>COM_ADD_00_0013</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">Reagent for Collecting Cell</settingParam1>
+        <settingParam2 name="Reagent quantity">1</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>14</itemId><type>COMMAND_TRANSFER</type>
+        <id>101</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>14</linkItemNo>
+        <commandType>COM_SCRAPE_00_0013</commandType>
+        <category>SCRAPE</category>
+      </item>
+      <item>
+        <itemId>15</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Dish 100">OBJ401</objectType>
+        <settingParam1 name="Title">DustBox</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>2</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>31</linkItemNo>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>14</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>1</linkLineNo>
+        <linkItemNo>14</linkItemNo>
+      </item>
+      <item>
+        <itemId>15</itemId><type>COMMAND</type>
+        <id>42</id>
+        <commandType>COM_CENTRIFUGE_00_0004</commandType>
+        <category>CENTRIFUGE</category>
+        <settingParam1 name="Rotation speed">1500</settingParam1>
+        <settingParam1Sub>[ﾗg]</settingParam1Sub>
+        <settingParam2 name="Temperature">4</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">5</settingParam3>
+        <settingParam3Sub>[min]</settingParam3Sub>
+        <settingParam4 name="Device">Angle Rotor</settingParam4>
+      </item>
+      <item>
+        <itemId>16</itemId><type>COMMAND_DISCARD</type>
+        <id>54</id>
+        <commandType>COM_DISCARD_00_0004</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>17</itemId><type>COMMAND_ADD</type>
+        <id>4</id>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">Lysate</settingParam1>
+        <settingParam2 name="Reagent quantity">700</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>18</itemId><type>COMMAND</type>
+        <id>507</id>
+        <commandType>COM_SUSPEND_00_0004</commandType>
+        <category>SUSPEND</category>
+        <settingParam1 name="Quantity">650</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Number of times">20</settingParam2>
+        <settingParam2Sub>[Times]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>19</itemId><type>COMMAND</type>
+        <id>521</id>
+        <commandType>COM_SONICATE_00_0004</commandType>
+        <category>SONICATE</category>
+        <settingParam1 name="ON">1</settingParam1>
+        <settingParam1Sub>[min/ON]</settingParam1Sub>
+        <settingParam2 name="OFF">30</settingParam2>
+        <settingParam2Sub>[sec/OFF]</settingParam2Sub>
+        <settingParam3 name="Number of times">5</settingParam3>
+        <settingParam3Sub>[Cycles]</settingParam3Sub>
+      </item>
+      <item>
+        <itemId>20</itemId><type>COMMAND_ADD</type>
+        <id>4</id>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">Bead</settingParam1>
+        <settingParam2 name="Reagent quantity">50</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>21</itemId><type>COMMAND</type>
+        <id>23</id>
+        <commandType>COM_MIX_00_0004</commandType>
+        <category>MIX</category>
+        <settingParam1 name="Device">Rotator</settingParam1>
+        <settingParam2 name="Temperature">4</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">8</settingParam3>
+        <settingParam3Sub>[hour]</settingParam3Sub>
+      </item>
+      <item>
+        <itemId>22</itemId><type>COMMAND_DISCARD</type>
+        <id>54</id>
+        <commandType>COM_DISCARD_00_0004</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">on Magnetic Rack</settingParam2>
+      </item>
+      <item>
+        <itemId>23</itemId><type>LOOP_TO</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>27</linkItemNo>
+        <settingParam1>4</settingParam1>
+      </item>
+      <item>
+        <itemId>24</itemId><type>COMMAND_ADD</type>
+        <id>4</id>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">Wash Liquid</settingParam1>
+        <settingParam2 name="Reagent quantity">1</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>25</itemId><type>COMMAND</type>
+        <id>507</id>
+        <commandType>COM_SUSPEND_00_0004</commandType>
+        <category>SUSPEND</category>
+        <settingParam1 name="Quantity">900</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Number of times">10</settingParam2>
+        <settingParam2Sub>[Times]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>26</itemId><type>COMMAND_DISCARD</type>
+        <id>54</id>
+        <commandType>COM_DISCARD_00_0004</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">on Magnetic Rack</settingParam2>
+      </item>
+      <item>
+        <itemId>27</itemId><type>LOOP_FROM</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>23</linkItemNo>
+      </item>
+      <item>
+        <itemId>28</itemId><type>COMMAND_ADD</type>
+        <id>4</id>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">Lysate</settingParam1>
+        <settingParam2 name="Reagent quantity">200</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>29</itemId><type>COMMAND</type>
+        <id>73</id>
+        <commandType>COM_REACT_00_0004</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">60℃</settingParam1>
+        <settingParam2 name="Timer">1</settingParam2>
+        <settingParam2Sub>[hour]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>30</itemId><type>COMMAND_TRANSFER</type>
+        <id>203</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>30</linkItemNo>
+        <commandType>COM_TRANSFER_00_0061</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">200</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Collect">Supernatant</settingParam2>
+        <settingParam3 name="Rack">on Magnetic Rack</settingParam3>
+      </item>
+      <item>
+        <itemId>31</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam1 name="Title">DustBox</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>3</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>43</linkItemNo>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>14</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>15</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>16</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>17</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>18</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>19</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>20</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>21</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>22</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>23</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>24</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>25</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>26</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>27</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>28</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>29</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>30</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>2</linkLineNo>
+        <linkItemNo>30</linkItemNo>
+      </item>
+      <item>
+        <itemId>31</itemId><type>COMMAND_ADD</type>
+        <id>4</id>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">Buffer A</settingParam1>
+        <settingParam2 name="Reagent quantity">500</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>32</itemId><type>COMMAND</type>
+        <id>507</id>
+        <commandType>COM_SUSPEND_00_0004</commandType>
+        <category>SUSPEND</category>
+        <settingParam1 name="Quantity">650</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Number of times">10</settingParam2>
+        <settingParam2Sub>[Times]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>33</itemId><type>COMMAND_ADD</type>
+        <id>4</id>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">Enzyme A</settingParam1>
+        <settingParam2 name="Reagent quantity">7</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>34</itemId><type>COMMAND</type>
+        <id>507</id>
+        <commandType>COM_SUSPEND_00_0004</commandType>
+        <category>SUSPEND</category>
+        <settingParam1 name="Quantity">650</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Number of times">10</settingParam2>
+        <settingParam2Sub>[Times]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>35</itemId><type>COMMAND</type>
+        <id>73</id>
+        <commandType>COM_REACT_00_0004</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">60℃</settingParam1>
+        <settingParam2 name="Timer">3</settingParam2>
+        <settingParam2Sub>[hour]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>36</itemId><type>COMMAND_ADD</type>
+        <id>4</id>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">Enzyme B</settingParam1>
+        <settingParam2 name="Reagent quantity">1</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>37</itemId><type>COMMAND</type>
+        <id>507</id>
+        <commandType>COM_SUSPEND_00_0004</commandType>
+        <category>SUSPEND</category>
+        <settingParam1 name="Quantity">650</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Number of times">10</settingParam2>
+        <settingParam2Sub>[Times]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>38</itemId><type>COMMAND</type>
+        <id>73</id>
+        <commandType>COM_REACT_00_0004</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">37℃</settingParam1>
+        <settingParam2 name="Timer">1</settingParam2>
+        <settingParam2Sub>[hour]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>39</itemId><type>COMMAND_ADD</type>
+        <id>4</id>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">Reagent for Extraction</settingParam1>
+        <settingParam2 name="Reagent quantity">700</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>40</itemId><type>COMMAND</type>
+        <id>23</id>
+        <commandType>COM_MIX_00_0004</commandType>
+        <category>MIX</category>
+        <settingParam1 name="Device">Vortex</settingParam1>
+        <settingParam2 name="Temperature">25</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">20</settingParam3>
+        <settingParam3Sub>[sec]</settingParam3Sub>
+      </item>
+      <item>
+        <itemId>41</itemId><type>COMMAND</type>
+        <id>42</id>
+        <commandType>COM_CENTRIFUGE_00_0004</commandType>
+        <category>CENTRIFUGE</category>
+        <settingParam1 name="Rotation speed">15000</settingParam1>
+        <settingParam1Sub>[rpm]</settingParam1Sub>
+        <settingParam2 name="Temperature">4</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">5</settingParam3>
+        <settingParam3Sub>[min]</settingParam3Sub>
+        <settingParam4 name="Device">Angle Rotor</settingParam4>
+      </item>
+      <item>
+        <itemId>42</itemId><type>COMMAND_TRANSFER</type>
+        <id>203</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>42</linkItemNo>
+        <commandType>COM_TRANSFER_00_0061</commandType>
+        <category>TRANSFER</category>
+        <settingParam1 name="Dispensing quantity">650</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Collect">Upper Layer</settingParam2>
+        <settingParam3 name="Rack">--</settingParam3>
+      </item>
+      <item>
+        <itemId>43</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam1 name="Title">DustBox</settingParam1>
+      </item>
+    </object>
+    <object>
+      <objectId>4</objectId><item>
+        <itemId>1</itemId><type>OBJECT_START</type>
+        <id>0</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>53</linkItemNo>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam2 name="Device">RT</settingParam2>
+        <settingParam3 name="No. of objects">1</settingParam3>
+        <settingParam4 name="Initial volume">0</settingParam4>
+        <settingParam4Sub>[ｵL]</settingParam4Sub>
+      </item>
+      <item>
+        <itemId>2</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>3</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>4</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>5</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>6</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>7</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>8</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>9</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>10</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>11</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>12</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>13</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>14</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>15</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>16</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>17</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>18</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>19</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>20</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>21</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>22</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>23</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>24</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>25</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>26</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>27</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>28</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>29</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>30</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>31</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>32</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>33</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>34</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>35</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>36</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>37</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>38</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>39</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>40</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>41</itemId><type>BLANK</type>
+        <id>0</id>
+      </item>
+      <item>
+        <itemId>42</itemId><type>TRANSFER_TO</type>
+        <id>0</id>
+        <linkLineNo>3</linkLineNo>
+        <linkItemNo>42</linkItemNo>
+      </item>
+      <item>
+        <itemId>43</itemId><type>COMMAND_ADD</type>
+        <id>4</id>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">Separation Reagent</settingParam1>
+        <settingParam2 name="Reagent quantity">650</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>44</itemId><type>COMMAND</type>
+        <id>507</id>
+        <commandType>COM_SUSPEND_00_0004</commandType>
+        <category>SUSPEND</category>
+        <settingParam1 name="Quantity">1</settingParam1>
+        <settingParam1Sub>[mL]</settingParam1Sub>
+        <settingParam2 name="Number of times">15</settingParam2>
+        <settingParam2Sub>[Times]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>45</itemId><type>COMMAND</type>
+        <id>42</id>
+        <commandType>COM_CENTRIFUGE_00_0004</commandType>
+        <category>CENTRIFUGE</category>
+        <settingParam1 name="Rotation speed">15000</settingParam1>
+        <settingParam1Sub>[rpm]</settingParam1Sub>
+        <settingParam2 name="Temperature">4</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">15</settingParam3>
+        <settingParam3Sub>[min]</settingParam3Sub>
+        <settingParam4 name="Device">Angle Rotor</settingParam4>
+      </item>
+      <item>
+        <itemId>46</itemId><type>COMMAND_DISCARD</type>
+        <id>54</id>
+        <commandType>COM_DISCARD_00_0004</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>47</itemId><type>COMMAND_ADD</type>
+        <id>4</id>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">Wash Liquid</settingParam1>
+        <settingParam2 name="Reagent quantity">1</settingParam2>
+        <settingParam2Sub>[mL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>48</itemId><type>COMMAND</type>
+        <id>42</id>
+        <commandType>COM_CENTRIFUGE_00_0004</commandType>
+        <category>CENTRIFUGE</category>
+        <settingParam1 name="Rotation speed">15000</settingParam1>
+        <settingParam1Sub>[rpm]</settingParam1Sub>
+        <settingParam2 name="Temperature">4</settingParam2>
+        <settingParam2Sub>[ｰC]</settingParam2Sub>
+        <settingParam3 name="Timer">5</settingParam3>
+        <settingParam3Sub>[min]</settingParam3Sub>
+        <settingParam4 name="Device">Angle Rotor</settingParam4>
+      </item>
+      <item>
+        <itemId>49</itemId><type>COMMAND_DISCARD</type>
+        <id>54</id>
+        <commandType>COM_DISCARD_00_0004</commandType>
+        <category>DISCARD</category>
+        <settingParam1 name="Collect">Supernatant</settingParam1>
+        <settingParam2 name="Rack">--</settingParam2>
+      </item>
+      <item>
+        <itemId>50</itemId><type>COMMAND</type>
+        <id>73</id>
+        <commandType>COM_REACT_00_0004</commandType>
+        <category>REACT</category>
+        <settingParam1 name="Situation">Airdry</settingParam1>
+        <settingParam2 name="Timer">5</settingParam2>
+        <settingParam2Sub>[min]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>51</itemId><type>COMMAND_ADD</type>
+        <id>4</id>
+        <commandType>COM_ADD_00_0004</commandType>
+        <category>ADD</category>
+        <settingParam1 name="Reagent">Lysate</settingParam1>
+        <settingParam2 name="Reagent quantity">20</settingParam2>
+        <settingParam2Sub>[ｵL]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>52</itemId><type>COMMAND</type>
+        <id>507</id>
+        <commandType>COM_SUSPEND_00_0004</commandType>
+        <category>SUSPEND</category>
+        <settingParam1 name="Quantity">15</settingParam1>
+        <settingParam1Sub>[ｵL]</settingParam1Sub>
+        <settingParam2 name="Number of times">30</settingParam2>
+        <settingParam2Sub>[Times]</settingParam2Sub>
+      </item>
+      <item>
+        <itemId>53</itemId><type>OBJECT_END</type>
+        <id>0</id>
+        <linkLineNo>4</linkLineNo>
+        <linkItemNo>1</linkItemNo>
+        <objectType name="Tube 1.5">OBJ103</objectType>
+        <settingParam1 name="Title">4℃</settingParam1>
+      </item>
+    </object>
+  </main>
+</JobProtocolEditorSaveData>
